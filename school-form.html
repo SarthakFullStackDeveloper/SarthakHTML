@@ -13,7 +13,7 @@
   }
 
   .one {
-      background-image: url(https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTGh0q_qevZTQ9gJi6p82PzHK59M3S1xEAnOmxwCGb8eJxcMpXLPJI37z6kYu9LveRfB-wSgCn0ntHXHNxrEndzu53FxvuQZgIpRdfZD_-c);
+      background-image: url(https://storage.googleapis.com/blog-images-backup/0*I-sI3u34g0ydRqyA);
       background-position: right;
       background-repeat: no-repeat;
       background-size: cover;
@@ -27,58 +27,55 @@
  <center><h1>Admission Form</h1></center>
    <br>
    <br>
-   <!--Personal Section-->
+   <!--Contact Section-->
    <fieldset>
-    <legend>Personal Information</legend>
-    <label>Full Name:</label>
+    <legend>Contact Detail's</legend>
+    <label>Student's Name:</label>
+    <input type="text" placeholder="Enter Your Name">
+  <br>
+  <br>
+    <label>Date Of Birth:</label>
     <input type="text">
     <br>
     <br>
-    <label>Class:</label>
-    <input type="text">
-    <br>
-    <br>
-    <label>Age:</label>
-    <input type="number">
-    <br>
-    <br>
-    <label>Email:</label>
-    <input type="email">
-    <br>
-    <br>
-    <label>Password:</label>
-    <input type="password">
-    <br>
-    <br>
-    <label>Repeat Password:</label>
-    <input type="password">
-    <br>
-    <br>
-    <label>Adharcard No:</label>
-    <input type="number">
-
-   </fieldset>
-   
-<!--Contact Section -->
-<fieldset>
-    <legend>Contact Details</legend>
-    <label>Phone Number:</label>
-        <input type="number" placeholder="123-456-7890">
+    <label> Home Adress:</label>
+        <textarea placeholder=" Your Adress Here..."></textarea>
         <br>
         <br>
-        <label>What's app no:</label>
+        <label>Contact No:</label>
         <input type="number">
         <br>
         <br>
-        <label> Home Adress:</label>
-        <textarea placeholder=" Your Adress Here..."></textarea>  
-      </fieldset>
+        <label>Father's Contact No:</label> 
+        <input type="number"> 
+        <br>
+        <br>
+        <label>Mother's Contact No:</label> 
+        <input type="number"> 
 
-        <!--Detail's Section -->
-        <fieldset>
-          <legend>Parent's Details</legend>
-          <label>Father's Name:</label>
-    <input type="text">
+   </fieldset>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!--Information Section -->
+<fieldset>
+    <legend>Student Information</legend>
+    <label>Full Name:</label>
+        <input type="text" placeholder="Enter Your Name">
+        <br>
+        <br>
+        <label>Gender:</label>
+        <input type="radio" name="Gender">
+        <label>Male</label>
+
+        <label>Female</label>
+        <input type="text" name="Gender">
+        <br>
+        <br>
+        <label>Place Of Birth:</label>
+        <textarea placeholder=" Place Of Birth Here..."></textarea>
+        <br>
+        <br>
+        <label>Birth Certicificate</label>
+        <input type="file"> 
     <br>
     <br>
     <label>Mother's Name:</label>
@@ -93,77 +90,78 @@
     <input type="text">
     <br>
     <br>
-    <label>Father's Contact No:</label>
-    <input type="number">
+    <label>E-mail Adress:</label>
+    <input type="text">
     <br>
     <br>
-    <label>Mother's Contact No:</label>
+    <label>Password:</label>
     <input type="number">
         </fieldset>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-        <!--Option Section-->
+        <!--Medical Section-->
     <fieldset>
-      <legend>Preferences</legend>
-      <label>Preferred Contact Method: </label>
-      <br>
-      <input type="radio" name="radio">
-      <label>Email</label>
-      <input type="radio" name="radio">
-      <label>Phone</label>
+      <legend>Student's Medical History</legend>
+      <label>Blood Group: </label>
+      <input type="text">
       <br>
       <br>
-      <label>Hobbies:</label>
+      <label>Suffering From Any Disease:</label>
+      <textarea></textarea>
       <br>
-      <input type="checkbox">
-      <label>Reading</label>
-
-      <input type="checkbox">
-      <label>Travelling</label>
-
-      <input type="checkbox">
-      <label>Music</label>
-    <br>
-    <br>
+      <br>
+      <label>Medical Issues:</label>
+      <textarea></textarea>
+      <br>
+      <br>
     <label>Religion:</label>
-    
-    <br>
+  
     <label>Hindu</label>
     <input type="radio" name="Religion">
 
     <label>Muslim</label>
     <input type="radio" name="Religion">
+
+    <label>Christan</label>
+    <input type="radio" name="Religion">
+
+    <label>Other</label>
+    <input type="radio" name="Religion">
   </fieldset>
 
-  <!--Additional Section-->
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <!--Other Potential Information-->
   <fieldset>
-    <legend>Additional Details</legend>
-    <label>Country:</label>
-    <select>
-        <option>India</option>
-        <option>Australia</option>
-        <option>Russia</option>
-        </optgroup>
-    </select>
+    <legend>Other Potential Information</legend>
+    <label>Own Vehicles:</label>
+    <br>
+    <label>Cycle</label>
+    <input type="radio" name="Vehicle">
     <br>
     <br>
-    <label>Upload Resume:</label>
-<input type="file">
-<br>
-<br>
-<label>Date Of Birth</label>
-<input type="date">
-<br>
-<br>
-<label>Favourite Colour:</label>
-<input type="color">
-<br>
-<br>
-<label>Satisfaction Lavel</label>
-<input type="range">
-<br>
-<br>
-</fieldset>
+    <label>Bike</label>
+    <input type="radio" name="Vehicle">
+    <br>
+    <br>
+    <label>Car</label>
+    <input type="radio" name="Vehicle">
+    <br>
+    <br>
+    <label>Bus</label>
+    <input type="radio" name="Vehicle">
+    <br>
+    <br>
+    <label>Special Needs:</label>
+   <textarea></textarea>
+  </fieldset>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+  <!--School Information-->
+  <fieldset>
+    <label>Previous School Informations:</label>
+    <textarea></textarea>
+  </fieldset>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <!--Submit Section-->
 <fieldset>
 <legend>Submit Your Details</legend>
